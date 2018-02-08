@@ -1,6 +1,4 @@
 
-
-
 function alphabetize(a) {
     return a.toLowerCase().split("").sort().join("").trim();
 }
@@ -14,7 +12,6 @@ document.getElementById("findButton").onclick = function() {
 
     //Check if span exists, if so remove to clear results
     if (document.contains(document.getElementById("anaspan"))) {
-        console.log("in check for anaspan");
         document.getElementById("anaspan").remove();
     } 
 
